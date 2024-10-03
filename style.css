@@ -6,12 +6,17 @@
   font-family: "Roboto", system-ui;
 }
 
+body {
+  background-image: url(background.jpg);
+  background-size: 50% 50%;
+}
 
 /* Calculator body */
 #calculator {
   height: 570px;
   width: 400px;
   margin: auto;
+  background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 50px;
   border-radius: 20px;
@@ -106,7 +111,7 @@
   color: white !important;
 }
 
-#backspace{
+#backspace {
   background-color: rgb(85, 154, 6) !important;
   color: white !important;
 }
