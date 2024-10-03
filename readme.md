@@ -40,7 +40,7 @@ This application is compatible with the following browsers:
 1. Clone the repository:
    ```bash
    git clone https://github.com/suraj5kumar/simple_calculator.git
-   cd basic-calculator
+   cd simple_calculator
 2. Open the index.html file in your web browser.
 3. Alternatively, you can use a local server (like Live Server in VS Code) for a better experience.
 
