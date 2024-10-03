@@ -9,6 +9,7 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 - [Limitations](#limitations)
 - [How to Run](#how-to-run)
 - [Usage](#usage)
+- [Project URL](#project-URL)
 
 ## Features
 - Basic arithmetic operations: Addition, Subtraction, Multiplication, Division
@@ -50,7 +51,7 @@ This application is compatible with the following browsers:
 3. Click the "=" button to calculate the result.
 4. Use the "C" button to clear the input and the backspace button to delete the last input.
 
-## Project url
+## Project URL
 [Live Project URL](https://suraj5kumar.github.io/simple_calculator/)
 
-Click on the above url to see the project live.
+Click on the above URL to see the project live.
