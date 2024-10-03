@@ -9,7 +9,6 @@ This is a simple calculator web application built using HTML, CSS, and JavaScrip
 - [Limitations](#limitations)
 - [How to Run](#how-to-run)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Features
 - Basic arithmetic operations: Addition, Subtraction, Multiplication, Division
