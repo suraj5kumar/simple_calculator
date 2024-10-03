@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", system-ui;
+}
+
+
+/* Calculator body */
+#calculator {
+  height: 570px;
+  width: 400px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+
+/* Display area */
+#calculator .display #result {
+  height: 70px;
+  text-align: right;
+  font-size: 30px;
+  padding-bottom: 0;
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(31, 140, 235);
+  color: white;
+  padding: 5px 10px;
+}
+
+/* Buttons */
+#calculator .buttons {
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  column-gap: 25px;
+  row-gap: 35px;
+  margin-left: -10px;
+}
+
+
+/* Number buttons */
+#calculator .buttons .number {
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  background-color: #D7DCEF;
+  color: #6e7691;
+}
+
+
+#calculator .buttons .number:hover {
+  opacity: 0.8;
+}
+
+
+/* Special buttons and operators buttons */
+#c {
+  background-color: #1f2b54 !important;
+  color: white !important;
+}
+
+#add {
+  background-color: #63de77 !important;
+  color: white !important;
+}
+
+#divide {
+  background-color: #2388ff !important;
+  color: white !important;
+}
+
+#multiply {
+  background-color: #ffc804 !important;
+  color: white !important;
+}
+
+#subtract {
+  background-color: #ff445a !important;
+  color: white !important;
+}
+
+#equals {
+  background-color: #fca52c !important;
+  color: white !important;
+}
+
+#percent {
+  background-color: rgb(202, 46, 250) !important;
+  color: white !important;
+}
+
+#backspace{
+  background-color: rgb(85, 154, 6) !important;
+  color: white !important;
+}
+
+
+
+/* Responsive screen properties */
+@media screen and (max-width:450px) {
+  #calculator {
+    width: 270px;
+    height: 450px;
+  }
+
+  #calculator .display #result {
+    height: 50px;
+    font-size: 20px;
+  }
+
+  #calculator .buttons {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-left: 2px;
+  }
+
+  #calculator .buttons .number {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  #calculator .buttons #c,
+  #add,
+  #subtract,
+  #multiply,
+  #divide,
+  #equals {
+    font-size: 20px;
+    padding: 20px;
+  }
+}
